@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f7fafe;
+}
+
+                                        /* ESTILOS PARA EL HEAD-CONTENIDO */  
+/* ESTILOS PARA EL HEAD-CHOOSE */
+.headChoose{
+    display: grid;
+    place-items: center;
+}
+
+.headChoose h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.headChoose h2{
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.headChoose span{
+    color: silver;
+    font-size: 0.8rem;
+    padding-bottom: 25px;
+}
+
+/* ESTILOS PARA EL BOTÓN */
+.headBoton{
+    margin: auto;
+    padding: 5px;
+    background: white;
+    width: 13%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn-montly{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    color: silver;
+    cursor: pointer;
+}
+
+.btn-yearly{
+    border: none;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+                                        /* ESTILOS PARA LOS CONTENIDOS */
+.contenidos{
+    display: flex;
+    margin: 30px 200px 0px 200px;
+    justify-content: space-evenly;
+}
+
+ul li{
+    list-style: none;
+}
+
+/* ESTILOS PARA FREEMIUM Y BUSINESS */
+.contenido1{
+    background: white;
+    margin-top: 30px;
+    padding: 15px;
+    width: 330px;
+    border-radius: 20px;
+}
+
+.contenido-head{
+    display: grid;
+    place-items: center;
+    padding: 15px;
+}
+
+.contenido-head h2{
+    font-size: 1.5rem;
+}
+
+.contenido-head span{
+    padding: 5px 50px 5px 50px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: silver;
+}
+
+.contenido-head sup{
+    font-size: 1rem;
+}
+
+.contenido-head h1{
+    font-size: 3rem;
+}
+
+.items{
+    background: #f9fbfc;
+    border-radius: 14px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.items ul li{
+    margin-left: 25px;
+    padding: 5px 10px 10px 5px;
+}
+
+ul li i, .logo{
+    background: blue;
+    border-radius: 50%;
+    color: white;
+    font-size: 1rem;
+}
+
+.btn-footer{
+    padding-top: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.footer1{
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    color: blue;
+    font-weight: 700;
+}
+
+/* ESTILOS PARA EL PRO */
+.pro{
+    background: #1a5af5;
+    padding: 15px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+.pro-head{
+    display: grid;
+    place-items: center;
+    padding: 15px;
+}
+
+.pro-head h2{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.pro-head span{
+    padding: 5px 40px 3px 40px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: silver;
+}
+
+.pro-head sup{
+    font-size: 1rem;
+    color: white;
+}
+
+.pro-head h1{
+    font-size: 3rem;
+    color: white;
+    padding: 12px;
+}
+
+.btn-proHead{
+    padding: 10px;
+    background: #6c98f5;
+    border: none;
+    border-radius: 10px;
+    width: 48%;
+    font-size: 0.7rem;
+    color: white;
+}
+
+.pro-items{
+    background: white;
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.pro-items ul li{
+    margin-left: 25px;
+    padding: 5px 10px 10px 5px;
+}
+
+.btn-footerPro{
+    padding-top: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.btn-proGo{
+    padding: 20px;
+    width: 80%;
+    border-radius: 15px;
+    border: none;
+    background: blue;
+    color: white;
+    font-weight: 700;
+}

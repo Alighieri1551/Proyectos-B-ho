@@ -1,0 +1,59 @@
+body{
+    background: url(fondoBúho.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.content-form{
+    display: grid;
+    place-items: center;
+}
+
+form{
+    border: 1px  2px 9px rgb(80, 80, 80);;
+    padding: 15px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 1rem 1.5rem rgb(201, 197, 197);
+    background-color: rgba(255, 255, 255, 0.490);
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bolder;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.text-aleatorio{
+    cursor: default;
+}
+
+#btn-form{
+    padding: 12px 20px;
+    width: 30%;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.boton-formulario{
+    display: grid;
+    place-items: center;
+}
+
+form:hover{
+    background: white;
+}
+
+form:hover .ingresarDatos{
+    background: white;
+    border: 1px solid black;
+}
